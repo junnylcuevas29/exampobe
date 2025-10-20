@@ -1,0 +1,37 @@
+styles.css
+body { background:#f8f9fa; }
+.card-img-top { height: 240px; object-fit: cover; }
+
+/* Make all admin tables scrollable */
+.table-responsive {
+  max-height: 500px;      /* adjust height as needed */
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+/* Optional: sticky headers for better usability */
+.table-responsive table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 2;
+}
+
+/* Make admin tables scrollable */
+.table-scroll {
+  max-height: 500px; /* adjust based on layout */
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 1px solid #dee2e6;
+  border-radius: 6px;
+}
+
+/* Sticky header for better readability */
+.table-scroll thead th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+  z-index: 2;
+}
